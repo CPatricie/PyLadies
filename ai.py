@@ -2,7 +2,7 @@ import random
 
 def tah_pocitace(pole):
     while True:
-        misto = random.randint(0, 19)
+    	misto = random.randint(0, 19)
         if "-" == pole[pozice]:
             pole = tah(pole, pozice, "o")
             return pole
